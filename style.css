@@ -1,3 +1,20 @@
-html {
-  background: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "PopIn";
+  src: url(./Font/Poppins/Poppins-Medium.ttf) format("truetype");
+}
+
+body {
+  font-family: "PopIn", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background-color: lightblue;
 }
